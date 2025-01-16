@@ -6,5 +6,5 @@ public class Category
     public string Name { get; set; }
     public int ParentId { get; set; }
     public DateTime CreatedAt { get; set; }
-    
+    public ICollection<Product> Products { get; set; }
 }

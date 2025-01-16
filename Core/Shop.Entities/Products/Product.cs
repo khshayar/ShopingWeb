@@ -10,4 +10,8 @@ public class Product
     public bool IsActive { get; set; }
     public int CategoryId { get; set; }
     public DateTime CreatedAt { get; set; }
+    public Category Category { get; set; }
+    public ICollection<Review> Reviews { get; set; }
+    public ICollection<OrderItem> OrderItems { get; set; }
+    public ICollection<CartItem> CartItems { get; set; }
 }

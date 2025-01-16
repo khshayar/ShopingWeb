@@ -8,4 +8,5 @@ public class Payment
     public string PaymentStatus { get; set; }
     public string TransactionId { get; set; }
     public DateTime CreatedAt { get; set; }
+    public Order Order { get; set; }
 }
