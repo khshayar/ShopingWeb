@@ -25,7 +25,5 @@ public class ProductEntityMap:IEntityTypeConfiguration<Product>
         builder.HasOne(x => x.Category)
             .WithMany(x => x.Products)
             .HasForeignKey(x => x.CategoryId);
-        
-
     }
 }

@@ -16,7 +16,6 @@
       <Folder Include="Copons\" />
       <Folder Include="OrderItems\" />
       <Folder Include="Orders\" />
-      <Folder Include="Payments\" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\..\Core\Shop.Entities\Shop.Entities.csproj" />
