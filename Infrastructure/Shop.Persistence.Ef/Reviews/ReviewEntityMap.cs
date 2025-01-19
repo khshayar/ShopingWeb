@@ -1,5 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Shop.Entities.Reviews;
 
 namespace Shop.Persistence.Ef.Reviews;

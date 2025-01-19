@@ -1,5 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-
 namespace Shop.Persistence.Ef.DataContexts;
 
 public class EfDataContext:DbContext
