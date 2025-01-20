@@ -13,7 +13,6 @@
       <Folder Include="CartItems\" />
       <Folder Include="Carts\" />
       <Folder Include="Categorys\" />
-      <Folder Include="Copons\" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\..\Core\Shop.Entities\Shop.Entities.csproj" />
