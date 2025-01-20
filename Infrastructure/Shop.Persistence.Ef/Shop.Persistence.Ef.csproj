@@ -8,7 +8,6 @@
     <ItemGroup>
       <Folder Include="CartItems\" />
       <Folder Include="Carts\" />
-      <Folder Include="Categorys\" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\..\Core\Shop.Entities\Shop.Entities.csproj" />
