@@ -6,9 +6,6 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
-      <Folder Include="CartItems\" />
-    </ItemGroup>
-    <ItemGroup>
       <ProjectReference Include="..\..\Core\Shop.Entities\Shop.Entities.csproj" />
     </ItemGroup>
     <ItemGroup>
